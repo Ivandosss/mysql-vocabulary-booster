@@ -1,8 +1,4 @@
-### Termos e acordos
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
 
 # Boas vindas ao repositório do projeto Vocabulary Booster!
 
@@ -14,19 +10,18 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 # SUMÁRIO
 
+- [Boas vindas ao repositório do projeto Vocabulary Booster!](#boas-vindas-ao-repositório-do-projeto-vocabulary-booster)
+- [SUMÁRIO](#sumário)
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [⚠️ É importante que seus arquivos tenham exatamente estes nomes e estejam na raiz do projeto! ⚠️](#️-é-importante-que-seus-arquivos-tenham-exatamente-estes-nomes-e-estejam-na-raiz-do-projeto-️)
+    - [⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️](#️-é-importante-que-seus-arquivos-tenham-exatamente-estes-nomes-️)
 - [Como desenvolver](#como-desenvolver)
-    - [Instruções para restaurar os bancos de dados w3schools e hr](#instruções-para-restaurar-os-bancos-de-dados-w3schools-e-hr)
-    - [Implementações técnicas](#implementações-técnicas)
+  - [Instruções para restaurar os bancos de dados `w3schools` e `hr`](#instruções-para-restaurar-os-bancos-de-dados-w3schools-e-hr)
+  - [Implementações técnicas](#implementações-técnicas)
 - [Requisitos do projeto](#requisitos-do-projeto)
-- `Requisitos obrigatórios`
   - [1 - Exiba os países e indicando se cada um deles se encontra ou não na região formada pela Europa](#1---exiba-os-países-e-indicando-se-cada-um-deles-se-encontra-ou-não-na-região-formada-pela-europa)
   - [2 - Exiba os cargos com seu nível de renumeração associado, com base no salário máximo do cargo](#2---exiba-os-cargos-com-seu-nível-de-renumeração-associado-com-base-no-salário-máximo-do-cargo)
   - [3 - Exiba os cargos com a diferença entre seus salários máximo e mínimo](#3---exiba-os-cargos-com-a-diferença-entre-seus-salários-máximo-e-mínimo)
@@ -34,16 +29,20 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [5 - Exiba os cargos com sua variação salarial e suas médias máxima e mínima mensal, considerando salários máximo e minímo como anuais](#5---exiba-os-cargos-com-sua-variação-salarial-e-suas-médias-máxima-e-mínima-mensal-considerando-salários-máximo-e-minímo-como-anuais)
   - [6 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas](#6---faça-um-relatório-que-mostra-o-histórico-de-cargos-das-pessoas-empregadas)
   - [7 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas que iniciaram seus cargos nos meses de janeiro, fevereiro ou março](#7---faça-um-relatório-que-mostra-o-histórico-de-cargos-das-pessoas-empregadas-que-iniciaram-seus-cargos-nos-meses-de-janeiro-fevereiro-ou-março)
-  - [8 - Exibe todas as pessoas consumidoras cujos pedidos já foram enviados pelas empresas Speedy Express ou United Package](#8---exibe-todas-as-pessoas-consumidoras-cujos-pedidos-já-foram-enviados-pelas-empresas-speedy-express-ou-united-package)
+  - [8 - Exibe todas as **pessoas consumidoras** cujos pedidos já foram enviados pelas empresas `"Speedy Express"` ou `"United Package"`](#8---exibe-todas-as-pessoas-consumidoras-cujos-pedidos-já-foram-enviados-pelas-empresas-speedy-express-ou-united-package)
   - [9 - Exibe todos as pessoas funcionárias que já realizaram algum pedido, mostrando também seu total de pedidos feitos](#9---exibe-todos-as-pessoas-funcionárias-que-já-realizaram-algum-pedido-mostrando-também-seu-total-de-pedidos-feitos)
-  - [10 - Exibe todos os produtos que já foram pedidos, que possuem uma média de quantidade nos pedidos registrados acima de 20.00](#10---exibe-todos-os-produtos-que-já-foram-pedidos-que-possuem-uma-média-de-quantidade-nos-pedidos-registrados-acima-de-2000)
-  - [11 - Exibe todas as pessoas clientes que possuem compatriotas, mostrando a quantidade de compatriotas para cada pessoa cliente](#11---exibe-todas-as-pessoas-clientes-que-possuem-compatriotas-mostrando-a-quantidade-de-compatriotas-para-cada-pessoa-cliente)
-  - [12 - Faça um relatório que lista todas as pessoas funcionárias que possuem o mesmo cargo](#12---faça-um-relatório-que-lista-todas-as-pessoas-funcionárias-que-possuem-o-mesmo-cargo)
-  - [13 - Exibe todos produtos que já tiveram um pedido associado requerindo uma quantidade desse produto maior que 80](#13---exibe-todos-produtos-que-já-tiveram-um-pedido-associado-requerindo-uma-quantidade-desse-produto-maior-que-80)
+  - [10 - Exibe todos os produtos que já foram pedidos, que possuem uma média de quantidade nos pedidos registrados acima de `20.00`](#10---exibe-todos-os-produtos-que-já-foram-pedidos-que-possuem-uma-média-de-quantidade-nos-pedidos-registrados-acima-de-2000)
+  - [11 - Exibe todas as pessoas clientes **que possuem compatriotas**, mostrando a quantidade de compatriotas para cada pessoa cliente](#11---exibe-todas-as-pessoas-clientes-que-possuem-compatriotas-mostrando-a-quantidade-de-compatriotas-para-cada-pessoa-cliente)
+  - [12 - Faça um relatório que lista todas as pessoas funcionárias **que possuem o mesmo cargo**](#12---faça-um-relatório-que-lista-todas-as-pessoas-funcionárias-que-possuem-o-mesmo-cargo)
+  - [13 - Exibe todos produtos **que já tiveram um pedido associado requerindo uma quantidade desse produto maior que 80**](#13---exibe-todos-produtos-que-já-tiveram-um-pedido-associado-requerindo-uma-quantidade-desse-produto-maior-que-80)
   - [14 - Considerando o conjunto formado pelas pessoas consumidoras e empresas fornecedoras de produtos, queremos saber quais são os cinco primeiros países distintos, em ordem alfabética, presentes nesse conjunto](#14---considerando-o-conjunto-formado-pelas-pessoas-consumidoras-e-empresas-fornecedoras-de-produtos-queremos-saber-quais-são-os-cinco-primeiros-países-distintos-em-ordem-alfabética-presentes-nesse-conjunto)
-  - [15 - Crie uma procedure chamada buscar_media_por_cargo que recebe como parâmetro o nome de um cargo e em retorno deve mostrar a média salarial de todas as pessoas que possuem esse cargo](#15---crie-uma-procedure-chamada-buscar_media_por_cargo-que-recebe-como-parâmetro-o-nome-de-um-cargo-e-em-retorno-deve-mostrar-a-média-salarial-de-todas-as-pessoas-que-possuem-esse-cargo)
-  - [16 - Crie uma função chamada buscar_quantidade_de_empregos_por_funcionario no banco de dados hr que, ao receber o email de uma pessoa funcionária, retorne a quantidade de empregos presentes em seu histórico](#16---crie-uma-função-chamada-buscar_quantidade_de_empregos_por_funcionario-no-banco-de-dados-hr-que-ao-receber-o-email-de-uma-pessoa-funcionária-retorne-a-quantidade-de-empregos-presentes-em-seu-histórico)
-  - [17 - Crie uma TRIGGER que, a cada nova inserção realizada na tabela orders, insira automaticamente a data atual na coluna OrderDate](#17---crie-uma-trigger-que-a-cada-nova-inserção-realizada-na-tabela-orders-insira-automaticamente-a-data-atual-na-coluna-orderdate)
+  - [15 - Crie uma procedure chamada `buscar_media_por_cargo` que recebe como parâmetro o nome de um cargo e em retorno deve mostrar a média salarial de todas as pessoas que possuem esse cargo](#15---crie-uma-procedure-chamada-buscar_media_por_cargo-que-recebe-como-parâmetro-o-nome-de-um-cargo-e-em-retorno-deve-mostrar-a-média-salarial-de-todas-as-pessoas-que-possuem-esse-cargo)
+  - [16 - Crie uma função chamada `buscar_quantidade_de_empregos_por_funcionario` no banco de dados `hr` que, ao receber o **email de uma pessoa funcionária**, retorne a quantidade de empregos **presentes em seu histórico**](#16---crie-uma-função-chamada-buscar_quantidade_de_empregos_por_funcionario-no-banco-de-dados-hr-que-ao-receber-o-email-de-uma-pessoa-funcionária-retorne-a-quantidade-de-empregos-presentes-em-seu-histórico)
+  - [17 - Crie uma TRIGGER que, a cada nova inserção realizada na tabela `orders`, insira automaticamente a data atual na coluna `OrderDate`](#17---crie-uma-trigger-que-a-cada-nova-inserção-realizada-na-tabela-orders-insira-automaticamente-a-data-atual-na-coluna-orderdate)
+  - [BÔNUS:](#bônus)
+    - [18 - Faça um relatório que mostra o **histórico de cargos das pessoas empregadas**, mostrando as datas de início e de saída, assim como os anos que ela ficou nesse cargo](#18---faça-um-relatório-que-mostra-o-histórico-de-cargos-das-pessoas-empregadas-mostrando-as-datas-de-início-e-de-saída-assim-como-os-anos-que-ela-ficou-nesse-cargo)
+    - [19 - Crie uma função chamada `exibir_quantidade_pessoas_contratadas_por_mes_e_ano` no banco de dados `hr` que, dados o mês e ano como parâmetros nessa ordem, retorna a quantidade de pessoas funcionárias **que foram contratadas** nesse mês e ano](#19---crie-uma-função-chamada-exibir_quantidade_pessoas_contratadas_por_mes_e_ano-no-banco-de-dados-hr-que-dados-o-mês-e-ano-como-parâmetros-nessa-ordem-retorna-a-quantidade-de-pessoas-funcionárias-que-foram-contratadas-nesse-mês-e-ano)
+    - [20 - Toda pessoa funcionária no banco `hr` possui um histórico completo de cargos. Logo, crie uma procedure chamada `exibir_historico_completo_por_funcionario` que, dado o e-mail de uma pessoa funcionária, retorna todos os cargos em seu histórico](#20---toda-pessoa-funcionária-no-banco-hr-possui-um-histórico-completo-de-cargos-logo-crie-uma-procedure-chamada-exibir_historico_completo_por_funcionario-que-dado-o-e-mail-de-uma-pessoa-funcionária-retorna-todos-os-cargos-em-seu-histórico)
 
 - `Requisitos bônus`
 
@@ -124,70 +123,6 @@ SELECT * FROM hr.countries;
 
 Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
 
----
-
-## Data de Entrega
-
-  - Projeto individual.
-
-  - Será um dia de projeto.
-  
-  - Data de entrega para avaliação final do projeto: `01/11/2021 - 14:00h`.
-
----
-
-# Instruções para entregar seu projeto:
-
-### ANTES DE COMEÇAR A DESENVOLVER:
-
-1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-013-a-mysql-vocabulary-booster.git`
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-013-a-mysql-vocabulary-booster`
-
-2. Instale as dependências
-  * `npm i` ou `npm install`
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b seunome-mysql-vocabulary-booster`
-
-4. Para cada exercício você deve criar um novo arquivo sql **na pasta raiz do projeto** seguindo a seguinte estrutura:
-  * desafio1.sql, desafio2.sql, desafio3.sql, desafio4.sql, ..., desafioN.sql
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer o arquivo que você alterou como desafio1.sql)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando solução para desafio 1)
-        * `git status` (deve aparecer listado o arquivo _desafio1.sql_ em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto MySQL Vocabulary Booster'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
----
-
-### DURANTE O DESENVOLVIMENTO
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
 
 # Como desenvolver
 
@@ -643,38 +578,3 @@ Confirme a execução correta da procedure, chamando-a e passando o email `"NKOC
 
 Chamando-a dessa forma, sua procedure deve mostrar que a pessoa funcionária `Neena Kochhar` teve dois cargos em seu histórico: um como `Accounting Manager` no departamento `Accounting` e o outro como `Public Accountant` no departamento `Accounting`, nessa ordem.
 
----
-
-# Depois de terminar o desenvolvimento (opcional)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ de colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque as pessoas de quem quer receber o review:
-
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-\#VQV 🚀
-
----
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/2OfLJPn)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
